@@ -8,11 +8,18 @@ import jakarta.annotation.Generated;
 
 @RestController
 public class Keyword {
-	
+
 	@GetMapping("/hey-rupali")
 	public String name() {
+		System.out.println();
 		return "tum bahut harami ho";
-		
+
+	}
+
+	@PostMapping("/hey-sexy")
+	public String name1() {
+		return "tum bahut sexy ho";
+
 	}
 
 }
