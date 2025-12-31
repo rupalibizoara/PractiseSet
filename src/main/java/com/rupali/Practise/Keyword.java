@@ -11,14 +11,14 @@ public class Keyword {
 
 	@GetMapping("/hey-rupali")
 	public String name() {
-		System.out.println("you are also sexo");
+		System.out.println("you are also intelligent");
 		return "tum bahut harami ho";
 
 	}
 
 	@PostMapping("/hey-sexy")
 	public String name1() {
-		return "tum bahut sexy ho";
+		return "tum bahut achchhi ho";
 
 	}
 
