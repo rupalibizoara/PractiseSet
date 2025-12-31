@@ -11,7 +11,7 @@ public class Keyword {
 	
 	@GetMapping("/hey-rupali")
 	public String name() {
-		return "you are intelligent";
+		return "you are love";
 		
 	}
 
