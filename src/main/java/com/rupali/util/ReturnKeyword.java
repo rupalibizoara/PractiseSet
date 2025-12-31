@@ -17,7 +17,7 @@ public class ReturnKeyword {
 
 	public static int m2() {
 
-		int c = 201;
+		int c = 300;
 
 		if (c == 200) {
 			return c;
