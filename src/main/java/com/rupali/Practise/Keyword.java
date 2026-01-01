@@ -13,11 +13,12 @@ public class Keyword {
 	public String name() {
 		System.out.println("you are ss");
 		System.out.println("you are good");
+		System.out.println("you are cute");
 		return "tum bahut harami ho";
 
 	}
 
-	@PostMapping("/hey-sexy")
+	@PostMapping("/hey-you")
 	public String name1() {
 		return "tum bahut achchhi ho";
 
