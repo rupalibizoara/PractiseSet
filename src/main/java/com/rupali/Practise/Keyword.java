@@ -11,7 +11,7 @@ public class Keyword {
 
 	@GetMapping("/hey-rupali")
 	public String name() {
-		System.out.println("you are also intelligent");
+		System.out.println("you are smart");
 		return "tum bahut harami ho";
 
 	}
