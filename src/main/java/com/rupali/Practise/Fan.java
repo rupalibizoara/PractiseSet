@@ -8,7 +8,9 @@ public class Fan {
 
 	@PostMapping("/Fanbase")
 	public String name() {
+		System.out.println("this is pen");
 		return "i hate you";
+		
 
 	}
 }
